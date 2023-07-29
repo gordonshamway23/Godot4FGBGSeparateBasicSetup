@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://cd60w7lciuvfa"]
+
+[ext_resource type="Texture2D" uid="uid://qhg8m2upgt15" path="res://icon.svg" id="1_h32er"]
+
+[node name="GameScene" type="Node2D"]
+position = Vector2(-1, 102)
+scale = Vector2(0.445, 0.445)
+
+[node name="TestForegroundSprite" type="Sprite2D" parent="."]
+position = Vector2(185, 160)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite2" type="Sprite2D" parent="."]
+position = Vector2(905.618, 4.49438)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite3" type="Sprite2D" parent="."]
+position = Vector2(1880.9, 755.056)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite4" type="Sprite2D" parent="."]
+position = Vector2(1885.39, 31.4607)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite5" type="Sprite2D" parent="."]
+position = Vector2(532.584, 808.989)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite6" type="Sprite2D" parent="."]
+position = Vector2(1406.74, 1305.62)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite7" type="Sprite2D" parent="."]
+position = Vector2(220.225, 1238.2)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite8" type="Sprite2D" parent="."]
+position = Vector2(1316.85, 640.449)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite9" type="Sprite2D" parent="."]
+position = Vector2(750.562, 433.708)
+texture = ExtResource("1_h32er")
+
+[node name="TestForegroundSprite10" type="Sprite2D" parent="."]
+position = Vector2(1991.01, 1305.62)
+texture = ExtResource("1_h32er")
