@@ -9,5 +9,6 @@ void fragment()
 	vec4 game_color = texture(game_viewport_texture, UV);
 	float game_alpha = game_color.a;
 	float is_fg = step(alpha_threshold, game_alpha); //1.0 if foreground, 0.0 if background
+	//COLOR = vec4(is_fg, 1.0-is_fg, 1.0-is_fg, 0.25); //for debug, in order to see game through
 	COLOR = vec4(is_fg, is_fg, is_fg, 1.0);
 }

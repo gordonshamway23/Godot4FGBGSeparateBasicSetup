@@ -10,16 +10,18 @@ config_version=5
 
 [application]
 
-config/name="Distance Fields"
+config/name="Godot4FGBGSeparateBasicSetup"
 run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1024
-window/size/viewport_height=768
-window/stretch/mode="viewport"
+window/size/viewport_width=320
+window/size/viewport_height=180
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/mode="canvas_items"
 
 [rendering]
 
