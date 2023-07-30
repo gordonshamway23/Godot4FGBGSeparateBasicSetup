@@ -40,6 +40,7 @@ texture = SubResource("ViewportTexture_543vy")
 expand_mode = 1
 
 [node name="ShaderTextureRect" type="TextureRect" parent="."]
+visible = false
 material = SubResource("ShaderMaterial_kfkor")
 texture = ExtResource("4_ylsh1")
 
