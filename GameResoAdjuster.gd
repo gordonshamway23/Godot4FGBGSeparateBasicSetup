@@ -2,10 +2,11 @@ extends Node
 
 # This script automatically adjust the game subviewport size
 # to be as large as the window resolution.
-# It also changes the scale of "GameScene" and "GameSprite"
+# It also changes the scale of "GameScene"
 # in order to render everything at correct place.
 # Looks like magic, but it's working.
-# The script only make sense when "canvas_item" stretch mode
+# IMPORTANT: GameTextureRect expand mode must be "ignore size".
+# NOTE: The script only make sense when "canvas_item" stretch mode
 # is used in project settings.
 # Feel free to copy paste this.
 
