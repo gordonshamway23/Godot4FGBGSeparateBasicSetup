@@ -14,7 +14,6 @@ extends Node
 
 @onready var game_sub_viewport : Viewport = $"../GameSubViewport"
 @onready var game_scene = $"../GameSubViewport/GameScene"
-@onready var game_sprite = $"../GameSprite"
 
 
 func _ready():
@@ -37,6 +36,4 @@ func _on_screen_size_changed():
 		game_sub_viewport.size = game_vp_res
 		game_scene.scale = Vector2(game_vp_res.x / design_resolution.x,
 			game_vp_res.y / design_resolution.y)
-		game_sprite.scale = Vector2(design_resolution.x / game_vp_res.x,
-			design_resolution.y / game_vp_res.y)
 		#print("Window resized. Wnd size:", vp.size, "  Game viewport size:", game_vp_res)

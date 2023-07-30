@@ -29,19 +29,19 @@ render_target_update_mode = 4
 
 [node name="GameScene" parent="GameSubViewport" instance=ExtResource("2_1oqai")]
 
-[node name="BGSprite" type="Sprite2D" parent="."]
+[node name="BGTextureRect" type="TextureRect" parent="."]
 texture = ExtResource("3_w8ywm")
-centered = false
 
-[node name="GameSprite" type="Sprite2D" parent="."]
+[node name="GameTextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(320, 180)
+offset_right = 320.0
+offset_bottom = 180.0
 texture = SubResource("ViewportTexture_543vy")
-centered = false
+expand_mode = 1
 
-[node name="ShaderSprite" type="Sprite2D" parent="."]
-visible = false
+[node name="ShaderTextureRect" type="TextureRect" parent="."]
 material = SubResource("ShaderMaterial_kfkor")
 texture = ExtResource("4_ylsh1")
-centered = false
 
 [node name="GameResoAdjuster" type="Node" parent="."]
 script = ExtResource("1_t7l2p")
